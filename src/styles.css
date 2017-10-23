@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #121417;
+}
+
+.card {
+     position: relative;
+     display: -ms-flexbox;
+     display: -webkit-box;
+     display: flex;
+     -ms-flex-direction: column;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #1b2027;
+     background-clip: border-box;
+     border: 1px solid rgba(0, 0, 0, .125);
+     border-radius: .25rem;
+ }
+
